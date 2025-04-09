@@ -1,59 +1,75 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "userId": 1,
+      "username": "nguyenvanan",
+      "password": "An@123456",
+      "status": "active",
+      "lastLogin": "2025-04-02T08:15:30.000Z",
+      "createdAt": "2023-05-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "username": "tranthibinh",
+      "password": "Binh@123456",
+      "status": "active",
+      "lastLogin": "2025-04-06T14:22:10.000Z",
+      "createdAt": "2023-06-15T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "username": "levancuong",
+      "password": "Cuong@123456",
+      "status": "active",
+      "lastLogin": "2025-04-07T19:45:18.000Z",
+      "createdAt": "2023-07-22T00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "username": "phamthidieu",
+      "password": "Dieu@123456",
+      "status": "unactive",
+      "lastLogin": "2025-04-05T10:30:42.000Z",
+      "createdAt": "2023-08-10T00:00:00.000Z"
+    }
+  ],
   "notes": [
     {
-    "id": 1,
-    "title": "Học Flutter",
-    "content": "Hôm nay học về HTTP và REST API trong Flutter.",
-    "priority": 2,
-    "createdAt": "2024-04-01T10:00:00.000Z",
-    "modifiedAt": "2024-04-01T10:30:00.000Z",
-    "tags": ["flutter", "api"],
-    "color": "#FFA726",
-    "isCompleted": 0
-  },
-  {
-    "id": 2,
-    "title": "Ghi chú bài giảng",
-    "content": "Bài giảng của thầy về mô hình 3 lớp rất hay.",
-    "priority": 1,
-    "createdAt": "2024-04-02T09:15:00.000Z",
-    "modifiedAt": "2024-04-02T09:20:00.000Z",
-    "tags": ["school", "lecture"],
-    "color": "#66BB6A",
-    "isCompleted": 1
-  },
-  {
-    "id": 3,
-    "title": "Todo hôm nay",
-    "content": "- Mua đồ ăn\n- Ôn tập bài\n- Viết báo cáo",
-    "priority": 3,
-    "createdAt": "2024-04-03T08:00:00.000Z",
-    "modifiedAt": "2024-04-03T08:45:00.000Z",
-    "tags": ["todo", "daily"],
-    "color": "#29B6F6",
-    "isCompleted": 0
-  },
-  {
-    "id": 4,
-    "title": "Ý tưởng app mới",
-    "content": "Ứng dụng quản lý chi tiêu cá nhân.",
-    "priority": 2,
-    "createdAt": "2024-04-04T11:00:00.000Z",
-    "modifiedAt": "2024-04-04T11:10:00.000Z",
-    "tags": ["idea", "app"],
-    "color": "#AB47BC",
-    "isCompleted": 0
-  },
-  {
-    "id": 5,
-    "title": "Lịch học tuần này",
-    "content": "Thứ 2: Quản trị mạng\nThứ 4: Công nghệ Web\nThứ 6: Di động",
-    "priority": 1,
-    "createdAt": "2024-04-05T14:00:00.000Z",
-    "modifiedAt": "2024-04-05T14:10:00.000Z",
-    "tags": ["schedule", "school"],
-    "color": "#EF5350",
-    "isCompleted": 1
-  }
+      "id": 1,
+      "userId": 1,
+      "title": "Học Flutter",
+      "content": "Học cách làm app Flutter cơ bản.",
+      "priority": 2,
+      "tags": ["flutter", "mobile"],
+      "color": "blue",
+      "createdAt": "2025-04-01T10:00:00.000Z",
+      "modifiedAt": "2025-04-02T11:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "Công việc hôm nay",
+      "content": "Làm bài báo cáo môn Quản trị mạng.",
+      "priority": 3,
+      "tags": ["báo cáo", "quản trị"],
+      "color": "red",
+      "createdAt": "2025-04-03T08:00:00.000Z",
+      "modifiedAt": "2025-04-03T09:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "title": "Ý tưởng dự án",
+      "content": "Xây dựng ứng dụng ghi chú cá nhân dùng API.",
+      "priority": 1,
+      "tags": ["ý tưởng", "dự án"],
+      "color": "green",
+      "createdAt": "2025-04-04T13:45:00.000Z",
+      "modifiedAt": "2025-04-04T14:00:00.000Z"
+    }
   ]
 }
