@@ -1,0 +1,29 @@
+{
+  "notes": [
+    {
+      "id": 1,
+      "title": "Học Flutter",
+      "content": "Hôm nay học về HTTP và REST API trong Flutter."
+    },
+    {
+      "id": 2,
+      "title": "Ghi chú bài giảng",
+      "content": "Bài giảng của thầy về mô hình 3 lớp rất hay."
+    },
+    {
+      "id": 3,
+      "title": "Todo hôm nay",
+      "content": "- Mua đồ ăn\n- Ôn tập bài\n- Viết báo cáo"
+    },
+    {
+      "id": 4,
+      "title": "Ý tưởng app mới",
+      "content": "Ứng dụng quản lý chi tiêu cá nhân."
+    },
+    {
+      "id": 5,
+      "title": "Lịch học tuần này",
+      "content": "Thứ 2: Quản trị mạng\nThứ 4: Công nghệ Web\nThứ 6: Di động"
+    }
+  ]
+}
